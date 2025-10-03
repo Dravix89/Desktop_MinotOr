@@ -1,0 +1,43 @@
+.root {
+    -fx-background-image: url('/images/WallpaperLogin.png');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.title-text {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-fill: #3B2300;
+    -fx-stroke: #fffbeb;
+    -fx-stroke-width: 1;
+    -fx-padding: 10 10 20 10;
+}
+
+.text {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: #3B2300;
+    -fx-padding: 10 0 20 0;
+}
+
+.table-view {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #cc9f00;
+    -fx-table-cell-border-color: transparent;
+    -fx-font-size: 13px;
+}
+
+.table-column {
+    -fx-alignment: CENTER-LEFT;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #d0e7ff;
+}
+
+.table-row-cell:filled:hover {
+    -fx-background-color: #f0f8ff;
+}

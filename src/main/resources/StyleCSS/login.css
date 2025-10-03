@@ -1,0 +1,38 @@
+.root {
+    -fx-background-image: url('/images/WallpaperLogin.png');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.text-field,
+.password-field {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 8 12;
+    -fx-border-color: #ccc;
+    -fx-background-color: white;
+    -fx-font-size: 17px;
+}
+
+.button {
+    -fx-background-color: #e3e3e3;
+    -fx-text-fill: #3B2300;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 12;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 1);
+    -fx-border-color: transparent;
+    -fx-border-width: 1; /* Même largeur que sur hover pour éviter les décalages */
+    -fx-border-radius: 6;
+}
+
+
+.button:hover {
+    -fx-border-color: #3B2300;
+    -fx-border-width: 1;
+    -fx-border-radius: 6; /* Pour arrondir la bordure comme le fond */
+}
